@@ -1,0 +1,113 @@
+.main
+{
+    background-image:url("https://cdn.pixabay.com/photo/2018/02/23/12/38/flower-3175428_1280.jpg");
+    height:100%;
+    padding:80px;
+}
+hr{
+    width:50%;
+    border:2px solid black;
+    min-width:300px;
+    
+}
+MdContactMail{
+    position:relative;
+    animation-name:icons;
+    animation-duration:1s;
+}
+h2:hover{
+    color:white;
+    background-color:purple;
+}
+button:hover{
+background-image:linear-gradient(to right,rgb(175, 161, 8),rgb(194, 70, 8),rgb(203, 15, 15));
+color:white;
+}
+@keyframes icons{
+    0%{
+        left:0px;bottom:0px;
+    }
+    100%{
+        left:0px;top:10px;
+    }
+}
+.submain
+{
+    position:relative;
+    animation-name:movediv;
+    animation-duration:4s;
+}
+@keyframes movediv{
+    0%{
+        left:-1000px;top:0px;
+    }
+    100%{
+        left:0px;top:0px;
+    }
+}
+h2{
+    display:inline-block;
+    font-size:20px;
+    padding:10px;
+    color:rgb(102, 10, 168);
+   
+    margin:10px;
+    border-radius:50%;
+    background-color:white;
+
+    
+}
+h1{
+    font-size:50px;
+    letter-spacing:5px;
+    color:rgb(168, 11, 212);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    color:purple;
+    background-color:rgb(246, 246, 249);
+    border-radius:10px;
+    border:none;
+    width:40%;
+    min-width:300px;
+    height:40px;
+}
+.comp{
+    color:purple;
+    font-size:20px;
+}
+
+.box
+{
+    width:40%;
+    min-width:300px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    background-color:rgba(245, 222, 179, 0);
+}
+.box:focus{
+    outline: 0px;
+    border-bottom:3px solid rgb(168, 11, 212);
+   
+   
+}
+.box1
+{
+    width:20%;
+    min-width:300px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    background-color:rgba(245, 222, 179, 0);
+    margin:20px;
+    margin-right:50px;
+    margin-left:0px;
+}
+.box1:focus{
+    outline: 0px;
+    border-bottom:3px solid rgb(168, 11, 212);
+   
+   
+}
